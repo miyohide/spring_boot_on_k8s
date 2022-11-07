@@ -17,6 +17,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     // アクセスログを標準出力に出力する
     implementation 'dev.akkinoc.spring.boot:logback-access-spring-boot-starter:3.4.1'
+    // ログをJSON化する
+    implementation 'net.logstash.logback:logstash-logback-encoder:7.2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

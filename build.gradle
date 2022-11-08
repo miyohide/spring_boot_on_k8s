@@ -16,6 +16,7 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'io.micrometer:micrometer-registry-prometheus'
     // アクセスログを標準出力に出力する
     implementation 'dev.akkinoc.spring.boot:logback-access-spring-boot-starter:3.4.1'
     // ログをJSON化する
